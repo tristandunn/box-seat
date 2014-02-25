@@ -116,7 +116,8 @@ var BoxSeat = {
     var list  = this.lists[index];
 
     if (!list) {
-      return;
+      index = (direction == 1 ? 0 : this.lists.length - 1);
+      list  = this.lists[index];
     }
 
     $("section").hide()
