@@ -43,7 +43,7 @@ footer {
 
 body.dim header,
 body.dim footer {
-  opacity: 0.5;
+  opacity: 0.25;
 }
 
 header {
